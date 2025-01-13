@@ -23,5 +23,5 @@ while true; do
 	if [ "x$game" == "x" ]; then
 		continue;
 	fi
-	mgba-qt -f "$game" && killall -9 i3
+	mgba-qt -f "$game"; killall -9 i3
 done
